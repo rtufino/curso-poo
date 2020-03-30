@@ -13,8 +13,10 @@ using namespace std;
 class MiClase
 {
 public:
+    int miEntero; 
     MiClase()
     {
+        miEntero = 5;
         cout << "Constructor de mi clase\n";
     }
 };
@@ -22,5 +24,6 @@ public:
 int main()
 {
     MiClase miObjeto;
+    cout << miObjeto.miEntero << endl;
     return 0;
 }
