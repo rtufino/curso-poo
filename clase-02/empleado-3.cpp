@@ -7,7 +7,7 @@
  */
 
 #include <iostream>
-#include "empleado-2.h"
+#include "empleado-3.h"
 
 Empleado::Empleado(string n, double s): nombre(n){
     salario = s;
