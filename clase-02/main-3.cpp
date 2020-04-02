@@ -6,7 +6,7 @@
  * Ejemplo guarda de inclusion , archivo 3/3
  */
 #include <iostream>
-#include "empleado-2.h"
+#include "empleado-3.h"
 
 using namespace std;
 
