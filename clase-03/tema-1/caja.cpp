@@ -1,3 +1,11 @@
+/**
+ * Programación Orientada a Objetos
+ * Autor: Rodrigo Tufiño <rtufino@ups.edu.ec>
+ * Fecha: 02-04-2020
+ * 
+ * Ejemplo de punteros a objeto, archivo 2/3
+ */
+
 #include <iostream>
 #include "caja.h"
 

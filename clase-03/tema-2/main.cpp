@@ -1,3 +1,11 @@
+/**
+ * Programación Orientada a Objetos
+ * Autor: Rodrigo Tufiño <rtufino@ups.edu.ec>
+ * Fecha: 02-04-2020
+ * 
+ * Ejemplo de uso del apuntador this, archivo 3/3
+ */
+
 #include <iostream>
 #include "caja.h"
 

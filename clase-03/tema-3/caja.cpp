@@ -1,3 +1,11 @@
+/**
+ * Programación Orientada a Objetos
+ * Autor: Rodrigo Tufiño <rtufino@ups.edu.ec>
+ * Fecha: 02-04-2020
+ * 
+ * Ejemplo de miembros static, archivo 1/3
+ */
+
 #include <iostream>
 #include "caja.h"
 
