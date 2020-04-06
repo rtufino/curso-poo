@@ -6,17 +6,18 @@
 
 using namespace std;
 
-class Hospital {
-    private:
-        string nombre;
-        Paciente pacientes[10];
-        int pacientesIngresados;
-    public:
-        Hospital(string);
-        void ingresarPaciente();
-        void listarPacientes();
-
-        int getPacientesIngresados();
+class Hospital{
+	private:
+		string nombre;
+		Paciente pacientes[10];		// vector de OBJETOS
+		int pacientesIngresados;
+	public:
+		Hospital();
+		Hospital(string);
+		void ingresarPaciente();
+		void listarpacientes();
+		
+		int getPacientesIngresados();
 };
 
 #endif
