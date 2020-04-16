@@ -25,7 +25,7 @@ public:
     }
 };
 
-class Profesor : Persona
+class Profesor : public Persona
 {
 private:
     double salario;
@@ -38,7 +38,7 @@ public:
     }
 };
 
-class Estudiante : Persona
+class Estudiante : public Persona
 {
 private:
     int creditos;
