@@ -74,7 +74,7 @@ void Controlador::cargarBaseDatos()
 
 float Controlador::promedio()
 {
-    return this->modelo->getNota1() + this->modelo->getNota2() + this->modelo->getNota3() / 3;
+    return (this->modelo->getNota1() + this->modelo->getNota2() + this->modelo->getNota3()) / 3;
 }
 
 void Controlador::actualizarNota(int nota, int valor)
